@@ -5,15 +5,22 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>formulario</title>
+        <style>
+            button{
+                background-color: red;
+                color: white;
+            }
+
+        </style>
     </head>
     <body>
         <a href="./index.html">regresar</a>
         <form>
-            <label>
+            <label for="nombre">
                 Ingrese su nombre
                 <input placeholder="Ej: Daniel"/>
             </label>
-            <label>
+            <label for="apellido">
                 Ingrese su apellido
                 <input placeholder="Ej: Saldarriaga"/>
             </label>
@@ -25,7 +32,7 @@
             <input placeholder="input numerico" type="radio"/>
             <input placeholder="input numerico" type="file"/>
             <button type="submit" style="color: white; background-color: red">Enviar Datos</button>
-            <button type="reset">Reiniciar</button>
+            <button type="reset" style="color: green; background-color: pink">Reiniciar</button>
         </form>
         
     </body>
